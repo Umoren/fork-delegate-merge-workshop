@@ -30,6 +30,14 @@ npm run demo:full
 
 `npm run workshop` runs the full incident flow. Fixture inference, seeded evidence, and remediation are deterministic and local.
 
+For a guided progress check that runs the four demonstration stages and asserts their outcomes:
+
+```bash
+npm run smoke
+```
+
+The smoke test intentionally does not complete the delegation TODO for the attendee.
+
 ## Checkpoints
 
 - `workshop/starter` — runnable attendee checkpoint with the delegation TODO.

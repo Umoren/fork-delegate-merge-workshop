@@ -8,6 +8,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "npm run build && node --test dist/tests/*.test.js",
     "workshop": "npm run build && node dist/src/workshop.js",
+    "smoke": "npm run build && node dist/src/smoke.js",
     "demo:fork": "npm run build && node dist/src/demos/fork.js",
     "demo:merge": "npm run build && node dist/src/demos/merge.js",
     "demo:approval": "npm run build && node dist/src/demos/approval.js",

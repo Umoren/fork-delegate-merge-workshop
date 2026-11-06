@@ -8,6 +8,14 @@ npm install
 
 Keep the fixture path open. Do not begin by configuring Cloudflare.
 
+For a quick pre-workshop health check, run:
+
+```bash
+npm run smoke
+```
+
+This verifies the four demonstration stages without replacing the attendee delegation exercise.
+
 ## 1. Frame the problem — 5 minutes
 
 Show `src/agent.ts` and explain the contract: inference proposes an answer or a tool call; the runtime executes the permitted tool and returns an observation.
