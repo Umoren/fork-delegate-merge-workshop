@@ -67,6 +67,8 @@ WORKSHOP_URL=https://<your-worker>.workers.dev npm run demo:full:cf
 
 For local development with remote bindings, use `npm run workshop:cf`, then POST to `/demo/full`. If Cloudflare setup fails, return to the fixture commands above. There is no automatic fallback.
 
+See [cloudflare-path.md](cloudflare-path.md) for the participant setup sequence and the rationale for simulated remediation.
+
 The Cloudflare path is optional and must not be configured during the workshop unless it is already working.
 
 ## Project map
